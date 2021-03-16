@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(223,32,84,1) 0%, rgba(223,32,135,1) 100%);
+    display: flex;
+
+}
+header img{
+    margin: 5px 0 0 25px;
+}
+header h1{
+    margin: 15px 0 0 0;
+    color: #02FD97;
+}
+
+#addNoteForm input,textarea{
+    border: none !important;
+}
+#addNoteForm input,textarea:focus{
+    box-shadow: none !important;
+}
+.note_title{
+    display: none;
+}
+.active_note_title{
+    display: block !important;
+    margin-bottom: 10px;
+}
+/*card{*/
+/*    position: relative;*/
+/*}*/
+.add_button{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: none;
+
+}
+.add_button button{
+
+    font-size: 30px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 10px;
+    border: none;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0px 10px 13px -7px #252525, 3px 3px 8px 4px rgba(0,0,0,0);
+    box-shadow: 0px 8px 13px -7px #000000, 3px 3px 8px 4px rgba(0,0,0,0);
+}
+.add_button button:hover{
+    background: #e4dfdf;
+}
+
+.add_button button i{
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    color: #8a8989;
+    font-size: 16px;
+}
+.note_button{
+    width: 100%;
+    height: 30px;
+    justify-content: flex-end;
+}
+.note_button button{
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px 3px 8px 4px rgba(0,0,0,0);
+    box-shadow: 0px 8px 13px -7px #000000, 3px 3px 8px 4px rgba(0,0,0,0);
+}
+.note_button .delete_button{
+    background: #DF2054;
+    margin-left: 10px;
+}
+.note_button .delete_button:hover{
+    background: #b40333;
+    margin-left: 10px;
+}
+.note_button .edit_button{
+    background: #20df79;
+
+}
+.note_button .edit_button:hover{
+    background: #039e4d;
+
+}
+
+
+.note_button button i{
+    top: 8px;
+    left: 9px;
+    color: #f1eeee;
+    position: absolute;
+}
+
+.active{
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background:#1e2a78;
+    width:100%;
+    position: absolute;
+
+    /*clear: both;*/
+    bottom: 0;
+}
+footer p{
+    display: table;
+    color: white;
+    font-size: 15pt;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+
+}

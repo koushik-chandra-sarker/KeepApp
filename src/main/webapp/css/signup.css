@@ -1,0 +1,71 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #1e2a78;
+}
+.main_content{
+    height: 100%;
+}
+.card{
+
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #86b7fe;
+
+}
+.card .title{
+    color: #86b7fe;
+    margin-top: 25px;
+    font-size: larger;
+}
+.card-body .titleMain{
+    color: #86b7fe;
+    margin-top: 10px;
+    font-size: 22px;
+}
+.card-body img{
+    font-size: 18px;
+    width: 80px;
+}
+.login_form input{
+    background: transparent;
+    color: #86b7fe;
+    border-color: #86b7fe;
+}
+.login_form input:focus{
+    background: transparent !important;
+}
+
+.login_form input:-webkit-autofill:active  {
+    background: transparent !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #86b7fe !important;
+}
+.login_form button{
+    background: transparent;
+    color: #86b7fe;
+    border-color: #86b7fe;
+}
+.login_form button:focus{
+    background: transparent;
+    color: #86b7fe;
+
+}
+.login_form button:hover{
+    background: transparent;
+    box-shadow:0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+.login_text span{
+    color: #86b7fe;
+}
+.login_text a{
+    color: #63a2fc;
+    text-decoration: none;
+    margin-left: 5px;
+}
